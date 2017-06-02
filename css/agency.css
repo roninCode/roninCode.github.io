@@ -101,8 +101,8 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-xl {
   color: white;
-  background-color: #346edf;
-  border-color: #fed136;
+  background-color: #5b5e64;
+  border-color: #bdbcb7; 
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -116,8 +116,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
   color: white;
-  background-color: #fec503;
-  border-color: #f6bf01;
+  background-color: black;
+  border-color: #c7692d;
 }
 .btn-xl:active,
 .btn-xl.active,
@@ -180,7 +180,7 @@ fieldset[disabled] .btn-xl.active {
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
-  color: white;
+  color: #c7692d;
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
