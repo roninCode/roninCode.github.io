@@ -781,3 +781,7 @@ body {
   max-height: 325px;
   border-radius: 23%;
 }
+
+#resume_link {
+  color: black;
+}
