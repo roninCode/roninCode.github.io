@@ -785,3 +785,15 @@ body {
 #resume_link {
   color: black;
 }
+
+.cliff_jump {
+  margin-top: 70px;
+}
+
+.no_link_look {
+  color: black;
+}
+
+.no_link_look:hover {
+  color: black;
+}
