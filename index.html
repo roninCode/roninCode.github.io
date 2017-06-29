@@ -43,14 +43,24 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Jamie MacKillop</a>
-            </div>
-
+                <a class="shadow navbar-brand page-scroll" href="#page-top">Jamie MacKillop</a>
+            </div>     
+            
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
+                
+                <ul class="shadow nav navbar-nav navbar-right">
                     <li class="hidden">
                         <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/roninCode"><i class="fa fa-github"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/profile.php?id=3618096"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/jamie-mackillop"><i class="fa fa-linkedin"></i></a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#services">Skills</a>
@@ -62,11 +72,11 @@
                         <a class="page-scroll" href="#about">My Path</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#team">Team</a>
+                        <a class="page-scroll" href="#team">Contact</a>
                     </li>
-                    <li>
+                   <!--  <li>
                         <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -78,14 +88,12 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div id="presenting"><h3>Presenting...</h3></div>
-                <br><br>
-                <div class="intro-heading shadow header-name">Jamie MacKillop</div>
-                <div class="intro-lead-in shadow header-name full-stack">Full Stack Developer</div>
-
-                <!-- <div class="intro-lead-in">Jamie MacKillop</div>
-                <div class="intro-heading">Full Stack Developer</div> -->
-                <a href="#services" id="tell_more" class="page-scroll btn btn-xl">Tell Me More</a>
+                <div class="shadow intro-heading">Jamie MacKillop</div>
+                <div class="shadow intro-lead-in">Software Engineer</div>
+                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+            </div>
+            <div>
+                <a href="https://github.com/roninCode"><img id="header_face" src="img/my_face.jpg"></a>
             </div>
         </div>
     </header>
@@ -105,24 +113,33 @@
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-code-fork fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">E-Commerce</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <h4 class="service-heading">Collaboration</h4>
+                    <p class="text-muted">"No man is an island." That's why I practice version control with Git. I'm currently working on a 15+ person team with The Difference Engine. We build applications for non-profits who wouldn't normally be able to afford these services.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-diamond fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Responsive Design</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <h4 class="service-heading">Full-Stack Development</h4>
+                    <p class="text-muted">I'm a big fan of postgreSQL and ActiveRecord to organize my back-end. Ruby, Rails, Vue.js, HTML5, CSS, and Bootstrap help me to make the UX fast, friendly, and intuitive.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-graduation-cap fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Web Security</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <h4 class="service-heading">Passion for Learning</h4>
+                    <p class="text-muted">I haven't always been a developer, but I didn't let that stop me! I sought out mentorships and self taught for a year before I went to Actualize, a 4 month web dev bootcamp. I've since graduated and I continue to learn every day.</p>
+                    <div class="drop-text">
+                        <h5>What I'm Learning Now</h5>
+                        <div class="drop-text-content">
+                            <h6>Docker - AWS</h6>
+                            <h6>RSpec</h6>
+                            <h6>Sass</h6>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -134,7 +151,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">Projects, Blogs, and coming soons!</h3>
                 </div>
             </div>
             <div class="row">
@@ -145,11 +162,11 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/ethicapital_prev.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Round Icons</h4>
-                        <p class="text-muted">Graphic Design</p>
+                        <h4>EthiCapital</h4>
+                        <p class="text-muted">An ESG Investment Platform</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -159,11 +176,11 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/startup-framework.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/the-difference-engine-prev.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Startup Framework</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>The Difference Engine</h4>
+                        <p class="text-muted">Int. Montessori Training Inst.</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -173,14 +190,14 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/treehouse.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/my-blog-prev.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Treehouse</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>My Blog</h4>
+                        <p class="text-muted">Medium</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
+                <!-- <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -221,7 +238,7 @@
                         <h4>Dreams</h4>
                         <p class="text-muted">Website Design</p>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -240,7 +257,7 @@
                     <ul class="timeline">
                         <li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/ucsbseal.png" alt="">
+                                <a href="http://www.ucsb.edu/"><img class="img-circle img-responsive" src="img/ucsbseal.png" alt=""></a>
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -248,13 +265,13 @@
                                     <h4 class="subheading">University of California at Santa Barbara</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">I received my bachelor's degree in Global and International Studies (with honors). This education opened my mind to social justice, human rights, and the positive and negative impacts of globalization. I didn't know how, but it was from here that I decided that my life's work would be dedicated to alleviating human suffering. </p>
+                                    <p class="text-muted">I received my <strong>bachelor's degree</strong> in Global Studies. From this education I gained insight into global politics, economics, cultures, and religions. I studied both <strong>Spanish</strong> and <strong>Portuguese</strong> and would study abroad in Bahia, Brazil for a trimester. I gained a taste for <strong>learning new languages</strong> and trying to experience the world from alternative perspectives.  </p>
                                 </div>
                             </div>
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/massage.jpg" alt="">
+                                <img class="img-circle img-responsive" src="img/massage_pic.jpg" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -262,21 +279,21 @@
                                     <h4 class="subheading">Colorado School of Healing Arts</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">I received my Associate's degree in Massage Therapy. I then practiced injury and post-op rehabilitation at Kaiser Permanente, sports massage for various long-distance bike tours, and had my own private practice. I was closer to my goal of alleviating suffering, but my scope was still too small for my liking. You can only work on one person at a time. </p>
+                                    <p class="text-muted">I received my <strong>Associate's degree</strong> in <strong>Massage Therapy</strong>. I went on to practice injury/post-op rehabilitation at Kaiser Permanente, sports massage for various long-distance bike tours, and had my own private practice. I still practice massage therapy today, although more for <strong>family and friends</strong>.</p>
                                 </div>
                             </div>
                         </li>
                         <li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/k_cafe.jpg" alt="">
+                                <img class="img-circle img-responsive" src="img/farming.jpeg" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h4>2014 - 2016</h4>
-                                    <h4 class="subheading">Community Organizer</h4>
+                                    <h4 class="subheading">Project Manager</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">I moved to the Big Island of Hawaii and began working as a community orangizer at Pi'ilani; a sustainable, organic farm. As one of the original founders, I helped build and manage the farm's projects as well as our cafe at a local market (where we sold farm-to-table meals).</p>
+                                    <p class="text-muted">I moved to the Big Island of Hawaii and began working as a <strong>project manager and community orangizer</strong> at Pi'ilani; a sustainable, organic farm. As one of the <strong>original founders</strong>, I helped build and maintain the farm's agricultural and construction projects. I also managed our farm-to-table cafe at our local market.</p>
                                 </div>
                             </div>
                         </li>
@@ -286,19 +303,20 @@
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>July 2014</h4>
-                                    <h4 class="subheading">Phase Two Expansion</h4>
+                                    <h4>Jan - May 2017</h4>
+                                    <h4 class="subheading">Actualize</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted">I had been coding for a year before I decided to join the <strong>Actualize Full-Stack Web Development Bootcamp</strong>. The coursework was structured around Rails, JavaScript, Vue.js, PostgreSQL, HTML5, CSS, and bootstrap. We practiced <strong>RESTful</strong> routes and API calls with JSON and AJAX. It was during this course that I developed <strong>EthiCapital</strong> for my capstone project.</p>
                                 </div>
                             </div>
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <h4>Be Part
-                                    <br>Of Our
-                                    <br>Story!</h4>
+                                <a id="resume_link" href="img/my_resume.pdf"><h4>Checkout
+                                    <br>My
+                                    <br>Resume</h4>
+                                </a>
                             </div>
                         </li>
                     </ul>
@@ -313,7 +331,18 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Thanks for Stopping By!</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">You can reach out to me below for more information</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <h3>Email</h3> <p>jamie.mackillop.jobs@gmail.com</p>
+                </div>
+                <div class="col-lg-4">
+                    <h3>LinkedIn</h3> <a class="no_link_look" href="https://www.linkedin.com/in/jamie-mackillop/">https://www.linkedin.com/in/jamie-mackillop/</a>
+                </div>  
+                <div class="col-lg-4">
+                    <h3>GitHub</h3> <a class="no_link_look" href="https://github.com/roninCode">https://github.com/roninCode</a>
                 </div>
             </div>
             <div class="row">
@@ -322,18 +351,10 @@
                     </div>
                 </div>
                 <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/my_face.jpg" class="img-responsive img-circle" alt="">
+                    <div class="team-member cliff_jump">
+                        <img src="img/cliff_jump.jpg" class="img-responsive img-circle" id="final_picture" alt="">
                         <h4>Jamie MacKillop</h4>
                         <p class="text-muted">Software Engineer</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
                     </div>
                 </div>
                 <div class="col-sm-4">
@@ -342,7 +363,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row life_phil">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <p class="large text-muted">Life Philosophy: Leave it Better than You Found It.</p>
                 </div>
@@ -379,7 +400,7 @@
     </aside> -->
 
     <!-- Contact Section -->
-    <section id="contact">
+<!--     <section id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -421,32 +442,33 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <footer>
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; Your Website 2016</span>
+                    <span class="copyright">"Success is where preparation and opportunity meet" - Bobby Unser</span>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
-                        <li><a href="#"><i class="fa fa-twitter"></i></a>
+                        <li><a href="https://github.com/roninCode"><i class="fa fa-github"></i></a>
                         </li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                        <li><a href="https://www.facebook.com/profile.php?id=3618096"><i class="fa fa-facebook"></i></a>
                         </li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                        <li><a href="https://www.linkedin.com/in/jamie-mackillop"><i class="fa fa-linkedin"></i></a>
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-4">
+                    <span class="copyright">"If you want to be happy, be." -Leo Tolstoy</span>
+<!--                 <div class="col-md-4">
                     <ul class="list-inline quicklinks">
                         <li><a href="#">Privacy Policy</a>
                         </li>
                         <li><a href="#">Terms of Use</a>
                         </li>
                     </ul>
-                </div>
+                </div> -->
             </div>
         </div>
     </footer>
@@ -469,18 +491,22 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt="">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <p>
-                                    <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
-                                <ul class="list-inline">
-                                    <li>Date: July 2014</li>
-                                    <li>Client: Round Icons</li>
-                                    <li>Category: Graphic Design</li>
+                                <h2>EthiCapital</h2>
+                                <p class="item-intro text-muted">An ESG based, investment platform.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/ethicapital2.png" alt="">
+                                <p>I built EthiCapital as a platform for both Investors and Financial Advisors to meet and start a financial relationship. An Investor can fill out a questionnaire and EthiCapital will select an investment model that matches their risk tolerance. All investments are based on actual ESG stocks and bonds. (ESG stands for Environmental, Social, and Goverance... basically ethical investments). I designed EthiCapital as my Actualize Capstone Project.</p>
+                                <p><strong>EthiCapital is largely built on:</strong></p>
+                                <ul class="list-inline"></<ul>
+                                    <li>Ruby on Rails</li>
+                                    <li>PostgreSQL</li>
+                                    <li>Google Maps API</li>
+                                    <li>Google Charts</li>
+                                    <li>Wicked_pdf</li>
+                                    <li>CarrierWave</li>
                                 </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                <p>This site is currently deployed on <a href="http://ethicapital.herokuapp.com/">Heroku</a> at: http://ethicapital.herokuapp.com</p>
+                                <p>My next goal with EthiCapital is to deploy it on AWS using Docker to resolve deployment bugs and reduce loadtimes. </p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Return to Portfolio</button>
                             </div>
                         </div>
                     </div>
@@ -503,12 +529,21 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                <h2>Project Heading</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt="">
-                                <p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
-                                <p>You can preview Startup Framework <a href="http://designmodo.com/startup/?u=787">here</a>.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                <h2>The Difference Engine</h2>
+                                <p class="item-intro text-muted">A non-profit, web development apprenticeship</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/the-difference-engine.png" alt="">
+                                <p><a href="http://www.thedifferenceengine.io/">The Difference Engine</a> is non-profit, web development apprenticeship, that specializes in building websites for other non-profits. The New York branch that I am currently working with is developing a new website for the <strong>International Montessori Training Institute</strong>. I have been creating test suites with RSpec for models, controllers, and methods. I am working on team of 15+, so version control has been critically important (via GitHub). Their site is still in development.</p>
+                                <p><strong>The International Montessori Training Institute is currently being built with:</strong></p>
+
+                                <ul class="list-inline">
+                                    <li>Rails</li>
+                                    <li>RSpec</li>
+                                    <li>JavaScript</li>
+                                    <li>Paperclip</li>
+                                    <li>Devise</li>
+                                    <li>Stripe</li>
+                                </ul>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Return to Portfolio</button>
                             </div>
                         </div>
                     </div>
@@ -534,7 +569,7 @@
                                 <!-- Project Details Go Here -->
                                 <h2>Project Name</h2>
                                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
+                                <img class="img-responsive img-centered" src="img/portfolio/my-blog.png" alt="">
                                 <p>Treehouse is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
                                 <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/">FreebiesXpress.com</a>.</p>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>

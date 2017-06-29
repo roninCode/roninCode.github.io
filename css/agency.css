@@ -100,9 +100,9 @@ fieldset[disabled] .btn-primary.active {
   background-color: white;
 }
 .btn-xl {
-  color: white;
+  color: #fed136;
   background-color: #5b5e64;
-  border-color: #bdbcb7; 
+  border-color: #fed136; 
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -117,7 +117,7 @@ fieldset[disabled] .btn-primary.active {
 .open .dropdown-toggle.btn-xl {
   color: white;
   background-color: black;
-  border-color: #c7692d;
+  border-color: #fed136;
 }
 .btn-xl:active,
 .btn-xl.active,
@@ -151,7 +151,7 @@ fieldset[disabled] .btn-xl.active {
   border-color: transparent;
 }
 .navbar-custom .navbar-brand {
-  color: #c7692d;
+  color: #fed136;
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 .navbar-custom .navbar-brand:hover,
@@ -180,17 +180,17 @@ fieldset[disabled] .btn-xl.active {
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
-  color: #c7692d;
+  color: #fed136;
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #fed136;
+  color: white;
   outline: none;
 }
 .navbar-custom .navbar-nav > .active > a {
   border-radius: 0;
   color: white;
-  background-color: #c7692d;
+  background-color: grey;
 }
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
@@ -226,7 +226,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/from_the_ice.jpeg');
+  background-image: url('../img/electric_tower_fade.jpeg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -234,9 +234,11 @@ header {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  text-align: right;
-  color: #c7692d;
+  text-align: center;
+  color: #fed136;
 }
+
+
 header .intro-text {
   padding-top: 100px;
   padding-bottom: 50px;
@@ -744,22 +746,55 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #fed136;
 }
-#presenting{
-  text-align: left;
-  margin-top: -175px;
-}
-#tell_more{
+
+/*.shadow{
+  text-shadow: 2px 2px 8px #FF0000;
+}*/
+
+#header_face {
+  border-radius: 50%;
+  max-height: 13em;
+  margin-top: -150px;
+  margin-bottom: 25px;
+  border: solid;
 }
 
-/* x offset, y offset, blur size, color*/
-.shadow{
-  text-shadow: 10px 10px 4px #000;
+.drop-text {
+  position: relative;
+  display: inline-block;
 }
 
-.header-name {
-  text-align: center;
+.drop-text-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow:  0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
 }
 
-.full-stack {
-  margin-top: 175px;
+.drop-text:hover .drop-text-content {
+  display: block;
+}
+
+#final_picture {
+  max-height: 325px;
+  border-radius: 23%;
+}
+
+#resume_link {
+  color: black;
+}
+
+.cliff_jump {
+  margin-top: 70px;
+}
+
+.no_link_look {
+  color: black;
+}
+
+.no_link_look:hover {
+  color: black;
 }
