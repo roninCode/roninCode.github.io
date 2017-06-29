@@ -226,7 +226,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/solo_light.jpeg');
+  background-image: url('../img/from_the_ice.jpeg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -234,7 +234,7 @@ header {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  text-align: center;
+  text-align: right;
   color: #c7692d;
 }
 header .intro-text {
@@ -743,4 +743,23 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #fed136;
+}
+#presenting{
+  text-align: left;
+  margin-top: -175px;
+}
+#tell_more{
+}
+
+/* x offset, y offset, blur size, color*/
+.shadow{
+  text-shadow: 10px 10px 4px #000;
+}
+
+.header-name {
+  text-align: center;
+}
+
+.full-stack {
+  margin-top: 175px;
 }
