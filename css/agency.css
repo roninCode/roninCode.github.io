@@ -350,6 +350,8 @@ section h3.section-subheading {
   background-color: white;
   text-align: center;
   padding: 25px;
+  max-height: 100px;
+  overflow-y: scroll;
 }
 #portfolio .portfolio-item .portfolio-caption h4 {
   text-transform: none;
@@ -548,6 +550,7 @@ section h3.section-subheading {
   margin-top: 25px;
   margin-bottom: 0;
   text-transform: none;
+  color: lavender;
 }
 .team-member p {
   margin-top: 0;
@@ -568,11 +571,11 @@ section#contact .typeform-widget {
 }
 
 footer {
-  padding: 25px 0;
+  padding: 31px 0;
   text-align: center;
 }
 footer span.copyright {
-  line-height: 40px;
+  /* line-height: 40px; */
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   text-transform: none;
